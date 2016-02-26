@@ -18,6 +18,15 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 Here's an example of some ruby code with line anchors.
 
+```ruby
+  def initialize(email, name = nil)
+    self.email = email
+    self.name = name
+    self.favorite_number = 12
+    puts 'created awesomeness'
+  end
+```
+
 {% highlight ruby lineanchors %}
 # The most awesome of classes
 class Awesome < ActiveRecord::Base
