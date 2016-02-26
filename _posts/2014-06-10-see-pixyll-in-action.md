@@ -18,7 +18,7 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 Here's an example of some ruby code with line anchors.
 
-```ruby
+```bash
   def initialize(email, name = nil)
     self.email = email
     self.name = name
